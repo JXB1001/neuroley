@@ -1,0 +1,11 @@
+C:\Users\jsben\source\repos\Neuroley\Neuroley\bin\Debug\netcoreapp2.1\Neuroley.deps.json
+C:\Users\jsben\source\repos\Neuroley\Neuroley\bin\Debug\netcoreapp2.1\Neuroley.runtimeconfig.json
+C:\Users\jsben\source\repos\Neuroley\Neuroley\bin\Debug\netcoreapp2.1\Neuroley.runtimeconfig.dev.json
+C:\Users\jsben\source\repos\Neuroley\Neuroley\bin\Debug\netcoreapp2.1\Neuroley.dll
+C:\Users\jsben\source\repos\Neuroley\Neuroley\bin\Debug\netcoreapp2.1\Neuroley.pdb
+C:\Users\jsben\source\repos\Neuroley\Neuroley\obj\Debug\netcoreapp2.1\Neuroley.csprojAssemblyReference.cache
+C:\Users\jsben\source\repos\Neuroley\Neuroley\obj\Debug\netcoreapp2.1\Neuroley.csproj.CoreCompileInputs.cache
+C:\Users\jsben\source\repos\Neuroley\Neuroley\obj\Debug\netcoreapp2.1\Neuroley.AssemblyInfoInputs.cache
+C:\Users\jsben\source\repos\Neuroley\Neuroley\obj\Debug\netcoreapp2.1\Neuroley.AssemblyInfo.cs
+C:\Users\jsben\source\repos\Neuroley\Neuroley\obj\Debug\netcoreapp2.1\Neuroley.dll
+C:\Users\jsben\source\repos\Neuroley\Neuroley\obj\Debug\netcoreapp2.1\Neuroley.pdb
