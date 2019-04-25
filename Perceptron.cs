@@ -7,8 +7,7 @@ namespace Neuroley
     class Perceptron
     {
         private float[] weights;
-        private float bias;
-        private float learningRate = 0.1f;
+        private float learningRate = 0.01f;
 
         public Perceptron(int numberOfInputs, float learningRate)
         {
@@ -25,7 +24,6 @@ namespace Neuroley
         {
             Random random = new Random();
             weights = new float[numberOfInputs];
-            bias = 1;
             for (int i = 0; i < weights.Length; i++)
                 weights[i] = (float)random.NextDouble() * 2 - 1;
         }
@@ -40,13 +38,13 @@ namespace Neuroley
                     output += weights[i] * input[j];
                 }
             }
-            return output + bias;
+            return activate(output+0.1f);
         }
 
         public void Train(float[] input, float goal)
         {
             float guess = Guess(input);
-            float error = goal - guess;
+            float error = goal-guess;
 
             for (int i = 0; i < input.Length; i++)
             {
@@ -62,6 +60,18 @@ namespace Neuroley
             float guess = Guess(input);
             float error = goal - guess;
             return error;
+        }
+
+        private int activate(float sum)
+        {
+            if(sum > 0)
+            {
+                return 1;
+            }
+            else
+            {
+                return -1;
+            }
         }
     }
 }
